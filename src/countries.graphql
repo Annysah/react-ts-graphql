@@ -1,0 +1,9 @@
+query Countries {
+    countries {
+        name
+        capital
+        continent {
+            name
+        }
+    }
+}
